@@ -1,0 +1,50 @@
+.App {
+  margin: 2em;
+}
+
+.container {
+  padding: 30px;
+  margin: 30px 0px;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
+}
+
+.btn-capital-hide {
+  background-color: #777;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+.btn-capital-show {
+  background-color: #2947b6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+.menu {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 1fr 2fr;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.menu-item:hover {
+  color: #2947b6;
+  text-decoration: underline;
+  cursor: pointer;
+}
